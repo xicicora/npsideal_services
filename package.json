@@ -1,0 +1,14 @@
+{
+  "name": "rest_api_with_typescript",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc --sourcemap --watch -m commonjs -t es5 app.ts --outDir dev",
+    "start": "node ./dev/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "tsd": "^0.6.5",
+    "typescript": "^1.8.10"
+  }
+}
